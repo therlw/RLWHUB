@@ -1,0 +1,25 @@
+-- Made By ScriptHub therlw
+-- Enjoy
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("RLWHUB", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Pet Simulator X!")
+local MainSection = Main:NewSection("Pet Simulator X!")
+
+-- Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("therlw")
+--
+MainSection:NewButton("Project WD #1 (recommended)", "Pet Simulator X!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+end)
+--
+MainSection:NewButton("Yeet a Pet Auto Orb Collect", "Yeet Update Auto Farmer Script", function()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/therlw/191a5271df66f225ac288f3e9a85870a/raw/98c96d121430a1f80d865660b20b1d9876139d20/Auto%2520Orb.lua",true))()
+end)
+
+	
+
+
